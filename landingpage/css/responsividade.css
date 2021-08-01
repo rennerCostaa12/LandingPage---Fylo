@@ -1,0 +1,296 @@
+/* RESPONSIVIDADE */
+
+@media(max-width: 1440px){
+    /* LAPTOP LARGE */
+}
+
+@media(max-width: 1024px){
+    /* LAPTOP NORMAL */
+
+    *{
+        font-size: 97%;
+    }
+
+    /* COMMENTS CLIENTS */
+    .comments-ceos img{
+        width: 2.5rem;
+    }
+    
+    .comentarios-ceos > div p{
+        font-size: 1rem;
+    }
+    
+    .dados-ceos{
+        width: 80%;
+    }
+
+    /* GEAT EARLY ACESS */
+
+    .get-earlyAcess{
+        padding: 1.5rem 3rem;
+    }
+
+    .get-earlyAcess input{
+        width: 25vw;
+    }
+
+    /* FOOTER */
+    .icons-midias-socials{
+        width: 25vw;
+    }
+    
+    .icons-midias-socials a{
+        color: white;
+    }
+
+}
+
+@media(max-width: 768px){
+    /* TABLETS */ 
+
+    /*BANNER*/
+    .banner-conteudo{
+        width: 70%;
+    }
+
+    .banner-conteudo h1{
+        font-size: 2.2rem;
+    }
+
+    .banner-conteudo p{
+        font-size: 1.2rem;
+    }
+
+    /*SERVICES*/
+    .services{
+        flex-direction: column;
+    }
+
+    .services div p{
+        width: 100%;
+    }
+
+    /* STAY PRODUCTIVE */
+    .productive-stay{
+        flex-direction: column;
+    }
+
+    .productive-stay > div{
+       width: 80%;
+       margin: 2rem 0;
+    }
+
+    .productive-stay > div h1{
+        font-size: 1.8rem;
+        width: 100%;
+    }
+
+    .productive-stay > div p{
+        text-align: justify;
+        font-size: 1rem;
+    }
+
+    /* CEO'S COMMENTS */
+    .comments-ceos{
+        left: 9rem;
+    }
+
+    .comentarios-ceos {
+        margin: auto;
+        flex-direction: column;
+        width: 60%;
+        gap: 3.5rem;
+    }
+    
+    .dados-ceos{
+        margin: 1rem 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        width: 50%;
+    }
+
+    /* GEAT EARLY ACESS */
+    .get-earlyAcess{
+        left: 20%;
+        padding: 1.5rem 2.5rem;
+    }
+
+    .get-earlyAcess input{
+        font-size: 1rem;
+        width: 50vw;
+        height: 3rem;
+        margin-bottom: 1.3rem;
+    }
+
+    .get-earlyAcess button{
+        font-size: 1rem;
+        width: 50vw;
+        height: 3rem;
+        margin: auto;
+    }
+
+    /* FOOTER */
+    .footer{
+        padding-top: 16rem ;
+    }
+
+    .footer > div{
+        flex-direction: column;
+        margin: 2rem 0;
+    }
+
+    .footer > img{
+        margin: 0 2rem;
+    }
+
+    .location-text{
+        margin: 0 1.5rem;
+    }
+
+    .location-text{
+        width: 50%;
+    }
+
+    .email-and-phone{
+        margin: 0 1rem;
+    }
+
+    .icons-midias-socials{
+        width: 100%;
+        margin-top: 3rem;
+        text-align: center;
+    }
+
+}
+
+@media(max-width: 425px){
+    /* MOBILE LARGE */
+
+    *{
+        font-size: 95%;
+    }
+
+    /* NAV */
+
+    nav{
+        padding: 4rem 1rem;
+    }
+
+    nav img{
+        width: 8rem;
+    }
+    
+    nav ul li{
+        margin: 0.5rem;
+    }
+
+    /* BANNER */
+    .banner img{
+        max-width: 350px;
+    }
+
+    .banner-conteudo{
+        width: 80%;
+    }
+
+    .banner-conteudo h1{
+        font-size: 2rem;
+    }
+
+    .banner-conteudo p{
+        font-size: 1.2rem;
+    }
+
+    /* SERVICES */
+    .services{
+        flex-direction: column;
+    }
+
+    .services div{
+        width: 75%;
+    }
+
+    .services div h1{
+        font-size: 1.5rem;
+    }
+
+    .services div p{
+        width: 100%;
+    }
+
+    /* COMMENTS CEOS */
+    .comments-ceos{
+        left: 1.5rem;
+    }
+
+    .comentarios-ceos {
+        width: 90%;
+        gap: 3.5rem;
+    }
+    
+    .dados-ceos{
+        width: 55%;
+    }
+
+    /* GEAT EARLY ACESS */
+    .get-earlyAcess{
+        width: 90%;
+        left: 5%;
+    }
+
+    .get-earlyAcess input{
+        width: 70vw;
+        margin-bottom: 1.3rem;
+    }
+
+    .get-earlyAcess button{
+        width: 70vw;
+        margin: auto;
+    }
+
+    /* FOOTER */
+    .location-text{
+        width: 75%;
+    }
+}
+
+@media (max-width: 375px){
+    /* MOBILE MEDIUM */
+
+    /* COMMENTS CEOS */
+    .comments-ceos{
+        left: 1.5rem;
+    }
+
+    .comentarios-ceos {
+        width: 90%;
+        gap: 3.5rem;
+    }
+    
+    .dados-ceos{
+        width: 65%;
+    }
+
+    /* GEAT EARLY ACESS */
+    .get-earlyAcess{
+        width: 90%;
+        left: 5%;
+    }
+
+    .get-earlyAcess h1{
+        font-size: 1.5rem;
+    }
+
+    .get-earlyAcess input{
+        width: 70vw;
+        margin-bottom: 1.3rem;
+    }
+
+    .get-earlyAcess button{
+        margin: auto;
+        width: 70vw;
+    }
+
+}
+
